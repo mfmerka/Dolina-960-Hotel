@@ -1,0 +1,216 @@
+.content {
+    width: 100%;
+    margin: 0 auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+#intro {
+    height: 100vh;
+    background-image: url(../images/background.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction:column ;
+}
+
+header {
+   padding-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+}
+
+header .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content {
+    width: 100%;
+    max-width: 1296px;
+    margin: 0 auto;
+}
+
+.header_content {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    justify-content: space-between;
+}
+
+nav {
+    gap: 40px;
+    display: flex;
+}
+
+.logos_wrapper {
+    width: 280px;
+    height: 61px;
+    gap: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.brand_one {
+    width: 128px;
+    height: 61px;
+}
+
+.brand_two {
+    width: 128px;
+    height: 47px;
+}
+
+.right_wrapper {
+    width: 307px;
+    height: 42px;
+    gap: 40px;
+    display: flex;
+    align-items: center;
+}
+
+a {
+    color: white;
+}
+
+.soc_icons {
+    width: 96px;
+    height: 32px;
+    gap:  32px;
+    display: grid;
+}
+
+.group {
+    padding: 12px 20px;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+
+.main_content {
+    position: relative;
+}
+
+.stars_wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+.left_wrapper {
+    margin-bottom: 144px;
+}
+
+.reservation {
+    width: 278px;
+    height: 57px;
+    border-radius: 12px;
+    padding: 16px 24px;
+    gap: 10px;
+    background: #3D324F;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.hotel_name h1 {
+    color: white;
+    height: 700;
+    size: 64px;
+    line-height: 89.6px;
+    flex-wrap: wrap;
+}
+
+.best_offers {
+    height: 250px;
+}
+
+.best_offers_items {
+    display: flex;
+    gap: 48px;
+}
+
+.best_offers h2 {
+    width: 286px;
+    height: 34px;
+    font-weight: 500;
+    font-size: 24px;
+    color: white;
+    margin-bottom: 48px;
+}
+
+.appartment_card {
+    width:340px;
+    height: 168px;
+    border-radius: 16px;
+    padding: 20px 24px;
+    gap: 28px;
+    border: 1px solid #FFFFFF59;
+    background-color: #FFFFFF59;
+    position: relative;
+}
+
+.appartment_card_info {
+    display: flex;
+    flex-direction: column;
+    width: 136px;
+    height: 121px;
+    gap: 12px;
+    justify-content: space-between;
+    position: absolute;
+    top: 25px;
+    left: 182px;
+}
+
+.appartment_card_info p {
+    font-family: 'Stolzl';
+    font-weight: 400;
+    font-size: 15px;
+    color: white;
+}
+
+.appartment_card_one_price {
+    width: 136px;
+    height: 34px;
+    gap: 8px;
+    display: flex;
+}
+
+.appartment_ruble {
+    width:12.79px;
+    height: 17.14px;
+    gap: 10px;
+}
+
+.appartment_card_one_price p {
+    font-weight: 500;
+    font-size: 24px;
+    color: white;
+    font-family: 'Stolzl';
+}
+
+.more_details {
+    width: 120px;
+    height: 42px;
+    border-radius: 8px;
+    padding: 12px 20px;
+    gap: 10px;
+    border: 1px solid #3D324F;
+    background-color: #3D324F;
+    color: white;
+    top: 12px;
+}
+
+.appartment_card_two_price {
+    width: 136px;
+    height: 34px;
+    gap: 8px;
+    display: flex;
+}
